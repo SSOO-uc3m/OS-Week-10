@@ -101,9 +101,9 @@ long addN(long accumulator, int n) {
     
     for (i=0;i<n;i++){
        total += 1;
-     
+       
     }
-    
+    sleep(0.01);
     return total;
 }
 
