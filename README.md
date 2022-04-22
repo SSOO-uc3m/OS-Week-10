@@ -18,23 +18,27 @@ Given the following sequence diagram:
 Which of the following implementations ensures that action1 () always executes before action2 ()
 
 
-#### 1.1 Solution. Option A FALSE
+#### 1.1 Solution. Option A 
 
-If process 1 enter before proccess 2 will have a deadlock
+IF process 1 unlock(mutex) before process 2 exectures cond_wait. Process 2 will be permanent blocked.
 
 ![Diagram_02](img/img2.png)
 
-#### 1.2 Solution. Option B FALSE
+#### 1.2 Solution. Option B 
 
-The semaphore must be initialize to 0 in order to block process 2
+The semaphore must be initialize to 0 in order to block process 2 until process 1 perform its action.
+
 ![Diagram_03](img/img3.png)
 
-#### 1.3 Solution. Option C FALSE
+#### 1.3 Solution. Option C 
 
-Continue must be set to false or change the condition to continue !0 false
+Continue must be set to false or change the condition to continue !0 false.
+
 ![Diagram_04](img/img4.png)
 
-#### 1.4 Solution. Option D TRUE
+#### 1.4 Solution. Option D 
+
+This solution is correct.
 
 ![Diagram_05](img/img5.png)
 
