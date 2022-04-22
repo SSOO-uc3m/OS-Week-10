@@ -18,16 +18,24 @@ Given the following sequence diagram:
 Which of the following implementations ensures that action1 () always executes before action2 ()
 
 
-#### 1.1 Solution. Option A
+#### 1.1 Solution. Option A FALSE
+
+If process 1 enter before proccess 2 will have a deadlock
+
 ![Diagram_02](img/img2.png)
 
-#### 1.2 Solution. Option B
+#### 1.2 Solution. Option B FALSE
+
+The semaphore must be initialize to 0 in order to block process 2
 ![Diagram_03](img/img3.png)
 
-#### 1.3 Solution. Option C
+#### 1.3 Solution. Option C FALSE
+
+Continue must be set to false or change the condition to continue !0 false
 ![Diagram_04](img/img4.png)
 
-#### 1.4 Solution. Option D
+#### 1.4 Solution. Option D TRUE
+
 ![Diagram_05](img/img5.png)
 
 ###  Exercise 02
