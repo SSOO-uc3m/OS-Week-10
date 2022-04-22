@@ -19,7 +19,7 @@ void *oddThread(void *arg);
 
 void *evenThread(void *arg);
 
-int exercise07()
+int exercise07();
 
 void *producer(void *threadid);
 

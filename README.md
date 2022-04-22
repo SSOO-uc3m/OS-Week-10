@@ -17,6 +17,18 @@ Given the following sequence diagram:
 
 Which of the following implementations ensures that action1 () always executes before action2 ()
 
+#### 1.1 Solution. Option A
+![Diagram_02](img/img2.png)
+
+#### 1.2 Solution. Option B
+![Diagram_03](img/img3.png)
+
+#### 1.3 Solution. Option C
+![Diagram_04](img/img4.png)
+
+#### 1.4 Solution. Option D
+![Diagram_05](img/img5.png)
+
 ###  Exercise 02
 
 What execution secuence will create a deadlock?
