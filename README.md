@@ -32,13 +32,15 @@ The semaphore must be initialize to 0 in order to block process 2 until process 
 
 #### 1.3 Solution. Option C 
 
-Continue must be set to false or change the condition to continue !0 false.
+This solution is correct.
+
 
 ![Diagram_04](img/img4.png)
 
 #### 1.4 Solution. Option D 
 
-This solution is correct.
+Continue must be set to true or change the condition to continue != true.
+
 
 ![Diagram_05](img/img5.png)
 
