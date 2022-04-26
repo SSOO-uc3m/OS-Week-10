@@ -39,8 +39,7 @@ This solution is correct.
 
 #### 1.4 Solution. Option D 
 
-Continue must be set to true or change the condition to continue != true.
-
+If Process 1 finish before process 2, the later will be blocked permanently, but if process 2 open the mutex before process 1, process 2 do not the while loop, and executes their action before process 1
 
 ![Diagram_05](img/img5.png)
 
