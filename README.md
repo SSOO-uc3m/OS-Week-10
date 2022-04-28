@@ -32,13 +32,14 @@ The semaphore must be initialize to 0 in order to block process 2 until process 
 
 #### 1.3 Solution. Option C 
 
-Continue must be set to false or change the condition to continue !0 false.
+This solution is correct.
+
 
 ![Diagram_04](img/img4.png)
 
 #### 1.4 Solution. Option D 
 
-This solution is correct.
+If Process 1 finish before process 2, the later will be blocked permanently, but if process 2 open the mutex before process 1, process 2 do not the while loop, and executes their action before process 1
 
 ![Diagram_05](img/img5.png)
 
