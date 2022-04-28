@@ -20,7 +20,7 @@ Which of the following implementations ensures that action1 () always executes b
 
 #### 1.1 Solution. Option A 
 
-IF process 1 unlock(mutex) before process 2 exectures cond_wait. Process 2 will be permanent blocked.
+If process 1 unlock(mutex) before process 2 executes their cond_wait. Process 2 will be permanent blocked.
 
 ![Diagram_02](img/img2.png)
 
@@ -34,12 +34,13 @@ The semaphore must be initialize to 0 in order to block process 2 until process 
 
 This solution is correct.
 
-
 ![Diagram_04](img/img4.png)
 
 #### 1.4 Solution. Option D 
 
-If Process 1 finish before process 2, the later will be blocked permanently, but if process 2 open the mutex before process 1, process 2 do not the while loop, and executes their action before process 1
+On the one hand, if Process 1 finish before process 2, the later will be blocked permanently.
+
+On the other hand if process 2 open the mutex before process 1, process 2 will not enter in the while loop, and it wil lexecute their action before process 1
 
 ![Diagram_05](img/img5.png)
 
