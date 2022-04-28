@@ -99,7 +99,6 @@ void* print_new_line(void *ptr) {
 }
 ```
 #### 2 Solution. 
-![Diagram_06](img/img6.png)
 
 ![Diagram_07](img/img7.png)
 
