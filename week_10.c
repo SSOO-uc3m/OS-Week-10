@@ -164,7 +164,7 @@ void run() {
       total_amount = addN (total_amount, NUMBER_ADDED);
 		 
 		   //signal        
-		 // sem_post(&semaphore);
+		  sem_post(&semaphore);
        
        
     }
